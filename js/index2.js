@@ -22,8 +22,8 @@ window.onload=function(){
 				},
 				{
 				  'title' : 'ddd',
-				  'info' : ['1','2'],
-				  'imgs' : ['11.jpg','12.jpg']
+				  'info' : ['1','2','3'],
+				  'imgs' : ['11.jpg','12.jpg','13.jpg']
 				}
 			];
 			
@@ -72,7 +72,6 @@ window.onload=function(){
 			}
 			var prev2 = 0;
 			for(var i=0; i<imgs_.length;i++){
-				
 				as2[i].index = i;
 				as2[i].onclick=function(){ //点击切换标签
 					as2[prev2].className =imgs_[prev2].className = '';
