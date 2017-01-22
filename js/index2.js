@@ -1,7 +1,7 @@
 window.onload=function(){
 	
 	(function(d){
-			//获取wrap
+			//获取wrap。
 			var wrap = d.querySelector('.wrap');
 			//声明数组
 			var data = [
